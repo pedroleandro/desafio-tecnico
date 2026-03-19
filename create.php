@@ -25,7 +25,7 @@
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
             <div class="col-lg-6">
-                <form id="contactForm" action="index.php" method="post">
+                <form id="contactForm" action="store.php" method="post">
                     <!-- Nome -->
                     <div class="form-floating mb-3">
                         <input class="form-control" name="name" type="text" placeholder="Nome Completo" required/>

@@ -71,6 +71,10 @@ try {
         echo "Sucesso: novo estudante cadastrado com sucesso: " . $connection->lastInsertId();
     }
 
+    sleep(2);
+
+    header("Location: index.php");
+
 } catch (\RuntimeException $runtimeException) {
     echo "Erro: " . $runtimeException->getMessage();
 }
